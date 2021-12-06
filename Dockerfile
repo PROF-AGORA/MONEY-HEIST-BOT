@@ -1,5 +1,5 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/mr_agoraswamy/MONEY-HEIST-BOT.git /root/userbot
+RUN git clone https://github.com/PROF-AGORA/MONEY-HEIST-BOT.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
