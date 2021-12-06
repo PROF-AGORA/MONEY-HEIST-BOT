@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "website": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "success_url": "https://t.me/Legend_Userbot",
+  "repository": "https://github.com/PROF-AGORA/MONEY-HEIST-BOT/",
+  "website": "https://github.com/PROF-AGORA/MONEY-HEIST-BOT/",
+  "success_url": "https://t.me/MM_USERBOT",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -50,12 +50,12 @@
     },
     "YOUR_GROUP": {
       "description": "Set Ur Group Username",
-      "value": "@MoneyHeist_Userbot",
+      "value": "@MM_Userbot",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Channel Username",
-      "value": "@Moneyheist_LegendBot_Channel",
+      "value": "@MM_UB_UPDATES",
       "required": false
     },
     "BOY_OR_GIRL": {
@@ -90,7 +90,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
+      "value": "I AM USING PROF-AGORA'S MONEY HEIST BOT.",
       "required": true
     },
     "PM_PIC": {
@@ -100,7 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
+      "value": "HELLO SIR/MADAM I AM MONEY HEIST USERBOT @MM_USERBOT MY MASTER IS BUSY NOW
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
@@ -124,12 +124,12 @@
     },
     "SUDO_COMMAND_HAND_LER": {
       "description": "Please enter sudo user command handler",
-      "value": ",",
+      "value": "π",
       "required": false
     },
     "COMMAND_HAND_LER": {
       "description": "U can Change Ur command Handler By Default it is (.)",
-      "value": ".",
+      "value": "×",
       "required": true
       },
     "API_HASH": {
@@ -141,7 +141,7 @@
       "value": ""
     }, 
     "PROFESSOR_AGORA_STRING": {
-      "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/LEGENDBOT#main.py ",
+      "description": "Get this value by running @SESSIONGENERATORBOT ",
       "value": ""
     },
     "HEROKU_API_KEY": {
