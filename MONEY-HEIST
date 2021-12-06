@@ -3,19 +3,19 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $HEIST_REPO == "HEISTBOT" ]]
+    if [[ $PROF-AGORA_REPO == "MONEY-HEIST-BOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0JsdWUtT1MvTU9ORVktQk9ULVBHL2FyY2hpdmUvbGVnZW5kYm90LnppcA==" | base64 -d
-    elif [[ $HEIST_REPO == "HEISTBOT" ]]
+    elif [[ $PROF-AGORA_REPO == "MONEY-HEIST-BOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0JsdWUtT1MvTU9ORVktQk9ULVBHL2FyY2hpdmUvbGVnZW5kYm90LnppcA==" | base64 -d
-    elif [[ $LEGEND_REPO =~ $regex ]]
+    elif [[ $PROF-AGORA_REPO =~ $regex ]]
     then
-        if [[ $HEIST_REPO_BRANCH ]]
+        if [[ $PROF-AGORA_REPO_BRANCH ]]
         then
-            echo "${HEIST_REPO}/archive/${HEIST_REPO_BRANCH}.zip"
+            echo "${PROF-AGORA_REPO}/archive/${PROF-AGORA_REPO_BRANCH}.zip"
         else
-            echo "${HEIST_REPO}/archive/master.zip"
+            echo "${PROF-AGORA_REPO}/archive/master.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL0JsdWUtT1MvTU9ORVktQk9ULVBHL2FyY2hpdmUvbGVnZW5kYm90LnppcA==" | base64 -d
@@ -29,14 +29,14 @@ _setting_bot () {
     echo "  Downloading MoneyHeistBot V3.O Source Code..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
-    HESITPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    PROF-AGORAPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  Money HeistBot V3.O Cleaning.."
+    echo "  Money Heist Bot V3.O Cleaning.."
     rm -rf "$zippath"
     sleep 5
-    cd $HEISTPATH
-    echo "    ⚜️Starting MONEYHEIST BOT⚜️     "
+    cd $PROF-AGORAPATH
+    echo "    💰Starting MONEYHEIST BOT💰     "
     echo "
     🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
     "
